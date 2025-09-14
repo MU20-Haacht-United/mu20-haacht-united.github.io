@@ -1,0 +1,22 @@
+.section {
+  margin-top: 2rem;
+}
+
+.sectionLarge {
+  margin-top: 3rem;
+}
+
+.note {
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--ifm-table-border-color);
+}
