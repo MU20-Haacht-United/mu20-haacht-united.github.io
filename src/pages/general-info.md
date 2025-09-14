@@ -1,50 +1,50 @@
-# General Information
+# Algemene Informatie
 
-Welcome to MU20 Haacht United, a passionate girls under 20 soccer team based in Haacht, Belgium.
+Welkom bij MU20 Haacht United, een enthousiast U20 meisjesteam uit Haacht, België.
 
-## About Our Team
+## Over Ons Team
 
-MU20 Haacht United was founded with the vision of providing young female athletes with opportunities to develop their soccer skills, build character, and compete at the highest level. Our team is dedicated to fostering a supportive environment where every player can reach their potential.
+MU20 Haacht United werd opgericht met de visie jonge speelsters kansen te geven om hun voetbalvaardigheden te ontwikkelen, karakter op te bouwen en op het hoogste niveau te concurreren. We creëren een ondersteunende omgeving waarin elke speelster haar volledige potentieel kan bereiken.
 
-## Team Philosophy
+## Teamfilosofie
 
-Our philosophy is built on four core principles:
+Onze filosofie steunt op vier kernprincipes:
 
-- **Excellence**: We strive for excellence in everything we do, both on and off the field
-- **Teamwork**: Success comes through working together and supporting each other
-- **Development**: Every player deserves the opportunity to improve and grow
-- **Respect**: We respect our opponents, teammates, coaches, and the game itself
+- **Excellentie**: We streven naar topkwaliteit op en naast het veld.
+- **Teamwork**: Succes komt door samen te werken en elkaar te steunen.
+- **Ontwikkeling**: Elke speelster verdient de kans om te groeien.
+- **Respect**: We respecteren tegenstanders, ploegmaats, trainers en het spel zelf.
 
-## Training Schedule
+## Trainingsschema
 
-- **Training Days**: Tuesday and Thursday evenings, 7:00 PM - 8:30 PM
-- **Location**: Haacht Sports Complex, Haacht
-- **Match Days**: Typically Saturdays or Sundays (schedule varies by season)
+- **Trainingsdagen**: Dinsdag en donderdagavond, 19:00 - 20:30
+- **Locatie**: Sportcomplex Haacht, Haacht
+- **Wedstrijddagen**: Gewoonlijk zaterdag of zondag (schema varieert per seizoen)
 
-## Coaching Staff
+## Technische Staf
 
-Our experienced coaching staff is dedicated to developing young talent:
+Onze ervaren staf zet zich in voor de ontwikkeling van jong talent:
 
-- **Head Coach**: [Name to be added]
-- **Assistant Coach**: [Name to be added]
-- **Goalkeeping Coach**: [Name to be added]
+- **Hoofdcoach**: [Naam in te vullen]
+- **Assistent-coach**: [Naam in te vullen]
+- **Keeperstrainer**: [Naam in te vullen]
 
-## Contact Information
+## Contactgegevens
 
 - **Email**: info@mu20haachtunited.be
-- **Phone**: [Phone number to be added]
-- **Address**: Haacht Sports Complex, Haacht, Belgium
+- **Telefoon**: [Telefoonnummer nog toe te voegen]
+- **Adres**: Sportcomplex Haacht, Haacht, België
 
-## Season Goals
+## Doelen Seizoen
 
-This season, our goals include:
+Dit seizoen willen we:
 
-1. Developing individual player skills
-2. Building strong team chemistry
-3. Competing effectively in our league
-4. Preparing players for higher levels of competition
-5. Having fun and enjoying the beautiful game
+1. Individuele vaardigheden verbeteren
+2. Sterke teamchemie opbouwen
+3. Competitief presteren in de competitie
+4. Speelsters voorbereiden op een hoger niveau
+5. Plezier maken en genieten van het spel
 
 ---
 
-*For more information about joining our team or attending matches, please contact us using the information above.*
+*Voor meer info over aansluiten of wedstrijden bijwonen kan je ons contacteren via de gegevens hierboven.*
