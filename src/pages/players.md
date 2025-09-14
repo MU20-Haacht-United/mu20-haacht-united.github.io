@@ -1,140 +1,153 @@
-# Players
+# Speelsters
 
-Meet the talented athletes of MU20 Haacht United. Our team consists of dedicated young women who are passionate about soccer and committed to excellence.
+Maak kennis met de talentvolle speelsters van MU20 Haacht United. Ons team bestaat uit gedreven jonge vrouwen met passie voor voetbal en een streven naar excellentie.
 
-## Squad Overview
+## Ploegoverzicht
 
-| Position | Players |
-|----------|---------|
-| Goalkeepers | 2 |
-| Defenders | 6 |
-| Midfielders | 8 |
-| Forwards | 6 |
-| **Total** | **22** |
+| Positie | Aantal |
+|---------|--------|
+| Keepers | 2 |
+| Verdedigers | 6 |
+| Middenvelders | 8 |
+| Aanvallers | 6 |
+| **Totaal** | **22** |
 
-## Player Profiles
+## Profielen
 
-### Goalkeepers
+### Keepers
 
-#### #1 [Player Name]
-- **Age**: 19
-- **Height**: 1.75m
-- **Joined**: 2023
-- **Strengths**: Excellent reflexes, strong communication
-- **Previous clubs**: [Club name]
+#### #1 [Naam Speelster]
 
-#### #12 [Player Name]
-- **Age**: 18
-- **Height**: 1.70m
-- **Joined**: 2024
-- **Strengths**: Quick distribution, penalty saves
-- **Previous clubs**: [Club name]
+- **Leeftijd**: 19
+- **Lengte**: 1,75 m
+- **Sinds**: 2023
+- **Sterktes**: Reflexen, communicatie
+- **Vorige clubs**: [Clubnaam]
 
-### Defenders
+#### #12 [Naam Speelster]
 
-#### #2 [Player Name] - Captain
-- **Age**: 20
-- **Position**: Right Back
-- **Joined**: 2022
-- **Strengths**: Pace, crossing ability
-- **Goals this season**: 2
+- **Leeftijd**: 18
+- **Lengte**: 1,70 m
+- **Sinds**: 2024
+- **Sterktes**: Opbouw, strafschoppen
+- **Vorige clubs**: [Clubnaam]
 
-#### #3 [Player Name]
-- **Age**: 19
-- **Position**: Center Back
-- **Joined**: 2023
-- **Strengths**: Aerial ability, leadership
-- **Goals this season**: 1
+### Verdedigers
 
-#### #4 [Player Name]
-- **Age**: 18
-- **Position**: Center Back
-- **Joined**: 2024
-- **Strengths**: Ball-playing, positioning
-- **Goals this season**: 0
+#### #2 [Naam Speelster] - Kapitein
 
-#### #5 [Player Name]
-- **Age**: 19
-- **Position**: Left Back
-- **Joined**: 2023
-- **Strengths**: Overlapping runs, set pieces
-- **Goals this season**: 3
+- **Leeftijd**: 20
+- **Positie**: Rechtsachter
+- **Sinds**: 2022
+- **Sterktes**: Snelheid, voorzetten
+- **Doelpunten dit seizoen**: 2
 
-*[Additional defender profiles to be added]*
+#### #3 [Naam Speelster]
 
-### Midfielders
+- **Leeftijd**: 19
+- **Positie**: Centrale verdediger
+- **Sinds**: 2023
+- **Sterktes**: Kracht in de lucht, leiderschap
+- **Doelpunten dit seizoen**: 1
 
-#### #6 [Player Name] - Vice Captain
-- **Age**: 20
-- **Position**: Defensive Midfielder
-- **Joined**: 2022
-- **Strengths**: Tackling, passing range
-- **Goals this season**: 1
+#### #4 [Naam Speelster]
 
-#### #8 [Player Name]
-- **Age**: 19
-- **Position**: Central Midfielder
-- **Joined**: 2023
-- **Strengths**: Vision, work rate
-- **Goals this season**: 4
+- **Leeftijd**: 18
+- **Positie**: Centrale verdediger
+- **Sinds**: 2024
+- **Sterktes**: Opbouw, positiekeuze
+- **Doelpunten dit seizoen**: 0
 
-#### #10 [Player Name]
-- **Age**: 18
-- **Position**: Attacking Midfielder
-- **Joined**: 2024
-- **Strengths**: Creativity, free kicks
-- **Goals this season**: 6
+#### #5 [Naam Speelster]
 
-*[Additional midfielder profiles to be added]*
+- **Leeftijd**: 19
+- **Positie**: Linksachter
+- **Sinds**: 2023
+- **Sterktes**: Overlapping, stilstaande fasen
+- **Doelpunten dit seizoen**: 3
 
-### Forwards
+Aanvullende profielen volgen.
 
-#### #9 [Player Name]
-- **Age**: 19
-- **Position**: Striker
-- **Joined**: 2023
-- **Strengths**: Finishing, movement in the box
-- **Goals this season**: 12
+### Middenvelders
 
-#### #11 [Player Name]
-- **Age**: 20
-- **Position**: Left Winger
-- **Joined**: 2022
-- **Strengths**: Pace, dribbling
-- **Goals this season**: 8
+#### #6 [Naam Speelster] - Vicekapitein
 
-#### #7 [Player Name]
-- **Age**: 18
-- **Position**: Right Winger
-- **Joined**: 2024
-- **Strengths**: Crossing, cutting inside
-- **Goals this season**: 5
+- **Leeftijd**: 20
+- **Positie**: Defensieve middenvelder
+- **Sinds**: 2022
+- **Sterktes**: Tackles, passing
+- **Doelpunten dit seizoen**: 1
 
-*[Additional forward profiles to be added]*
+#### #8 [Naam Speelster]
 
-## Team Statistics
+- **Leeftijd**: 19
+- **Positie**: Centrale middenvelder
+- **Sinds**: 2023
+- **Sterktes**: Inzicht, werkethiek
+- **Doelpunten dit seizoen**: 4
 
-### Current Season Stats
-- **Average Age**: 19.2 years
-- **Team Goals**: 45
-- **Team Assists**: 38
-- **Clean Sheets**: 8
-- **Yellow Cards**: 12
-- **Red Cards**: 1
+#### #10 [Naam Speelster]
 
-### Player Development
+- **Leeftijd**: 18
+- **Positie**: Aanvallende middenvelder
+- **Sinds**: 2024
+- **Sterktes**: Creativiteit, vrije trappen
+- **Doelpunten dit seizoen**: 6
 
-Our players come from various backgrounds and skill levels. We focus on:
+Aanvullende profielen volgen.
 
-- **Technical Skills**: Ball control, passing, shooting
-- **Tactical Understanding**: Positioning, game awareness
-- **Physical Fitness**: Strength, speed, endurance
-- **Mental Strength**: Confidence, decision-making
+### Aanvallers
 
-## Youth Academy
+#### #9 [Naam Speelster]
 
-We also run a youth academy for younger players (U16-U18) who aspire to join our U20 team. This provides a pathway for development and ensures continuity in our playing style and team culture.
+- **Leeftijd**: 19
+- **Positie**: Spits
+- **Sinds**: 2023
+- **Sterktes**: Afwerking, loopacties
+- **Doelpunten dit seizoen**: 12
+
+#### #11 [Naam Speelster]
+
+- **Leeftijd**: 20
+- **Positie**: Linksbuiten
+- **Sinds**: 2022
+- **Sterktes**: Snelheid, dribbels
+- **Doelpunten dit seizoen**: 8
+
+#### #7 [Naam Speelster]
+
+- **Leeftijd**: 18
+- **Positie**: Rechtsbuiten
+- **Sinds**: 2024
+- **Sterktes**: Voorzetten, naar binnen komen
+- **Doelpunten dit seizoen**: 5
+
+Aanvullende profielen volgen.
+
+## Teamstatistieken
+
+### Huidig Seizoen
+
+- **Gemiddelde Leeftijd**: 19,2 jaar
+- **Teamdoelpunten**: 45
+- **Assists**: 38
+- **Clean sheets**: 8
+- **Gele kaarten**: 12
+- **Rode kaarten**: 1
+
+### Ontwikkeling
+
+Onze speelsters hebben diverse achtergronden. We focussen op:
+
+- **Techniek**: Balcontrole, passing, afwerking
+- **Tactiek**: Positiespel, spelinzicht
+- **Fysiek**: Kracht, snelheid, uithouding
+- **Mentaal**: Vertrouwen, beslissingen
+
+## Jeugdopleiding
+
+We hebben ook een jeugdtraject (U16-U18) dat doorstroom naar U20 mogelijk maakt en continuïteit in speelstijl garandeert.
 
 ---
 
-*Player profiles are updated regularly. If you're interested in joining our team, please contact us through our general information page.*
+*Profielen worden regelmatig bijgewerkt. Interesse om aan te sluiten? Kijk op de algemene info pagina.*

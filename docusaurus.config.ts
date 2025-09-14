@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'MU20 Haacht United',
-  tagline: 'Girls Under 20 Soccer Team',
+  tagline: 'U20 Meisjesvoetbalteam',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -32,8 +32,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'nl',
+    locales: ['nl'],
   },
 
   presets: [
@@ -47,21 +47,7 @@ const config: Config = {
           editUrl:
             'https://github.com/MU20-Haacht-United/MU20-Haacht-United/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/MU20-Haacht-United/MU20-Haacht-United/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+  blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -79,10 +65,10 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/general-info', label: 'General Info', position: 'left'},
-        {to: '/players', label: 'Players', position: 'left'},
-        {to: '/games', label: 'Games & Stats', position: 'left'},
-        {to: '/blog', label: 'News', position: 'left'},
+        {to: '/general-info', label: 'Algemene info', position: 'left'},
+        {to: '/players', label: 'Speelsters', position: 'left'},
+        {to: '/games', label: 'Wedstrijden & Statistieken', position: 'left'},
+  // Blog disabled
         {
           href: 'https://github.com/MU20-Haacht-United/MU20-Haacht-United',
           label: 'GitHub',
@@ -94,24 +80,24 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Team',
+      title: 'Team',
           items: [
             {
-              label: 'General Info',
+        label: 'Algemene info',
               to: '/general-info',
             },
             {
-              label: 'Players',
+        label: 'Speelsters',
               to: '/players',
             },
             {
-              label: 'Games & Stats',
+        label: 'Wedstrijden & Statistieken',
               to: '/games',
             },
           ],
         },
         {
-          title: 'Contact',
+      title: 'Contact',
           items: [
             {
               label: 'Email',
@@ -124,12 +110,9 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+      title: 'Meer',
           items: [
-            {
-              label: 'News',
-              to: '/blog',
-            },
+            // Blog link removed
             {
               label: 'GitHub',
               href: 'https://github.com/MU20-Haacht-United/MU20-Haacht-United',
