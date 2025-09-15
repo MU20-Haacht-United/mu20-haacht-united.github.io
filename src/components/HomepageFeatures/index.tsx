@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Teamgeest',
-    Svg: require('@site/static/img/hu_team.png').default,
+    Svg: require('@site/static/img/hu_team.svg').default,
     description: (
       <>
         Ons MU20 team bouwt op sterke teamgeest, inzet en passie voor het mooie spel.
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Focus op Ontwikkeling',
-    Svg: require('@site/static/img/hu_development.png').default,
+    Svg: require('@site/static/img/hu_development.svg').default,
     description: (
       <>
         We ontwikkelen jong talent, verfijnen techniek en bouwen karakter – op én naast het veld. Elke speelster telt.
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Competitieve Ambitie',
-    Svg: require('@site/static/img/hu_competition.png').default,
+    Svg: require('@site/static/img/hu_competition.svg').default,
     description: (
       <>
         We streven naar het beste in elke wedstrijd en training. Samen jagen we onze doelen na en vieren we elke overwinning.
