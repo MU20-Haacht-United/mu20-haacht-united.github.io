@@ -111,7 +111,7 @@ export const allLeagueMatches: LeagueMatch[] = (() => {
   combined.forEach(m => {
     const key = `${m.datum}|${m.thuisTeam}|${m.uitTeam}`;
     if (seen.has(key)) {
-      if (typeof console !== 'undefined' && process?.env?.NODE_ENV !== 'production') {
+      if (process?.env?.NODE_ENV !== 'production') {
         // eslint-disable-next-line no-console
         console.warn('Dubbele wedstrijd genegeerd in allLeagueMatches:', key);
       }
