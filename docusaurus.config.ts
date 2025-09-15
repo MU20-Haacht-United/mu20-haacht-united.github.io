@@ -16,9 +16,11 @@ const config: Config = {
 
   // Set the production url of your site here
   url: 'https://mu20-haacht-united.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/MU20-Haacht-United/',
+  // Set the /<baseUrl>/ pathname under which your site is served.
+  // Voor root deployment (https://mu20-haacht-united.github.io) gebruiken we '/'
+  // Let op: voor een organisatie/user site moet de repository normaal heten: <org>.github.io
+  // Als deze repo NIET zo heet en je toch root wilt, kan dat alleen via aparte hosting of een redirect pagina in de org root repo.
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
