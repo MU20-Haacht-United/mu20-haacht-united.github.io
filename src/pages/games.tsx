@@ -58,7 +58,7 @@ export default function GamesPage() {
               </thead>
               <tbody>
                 {upcoming.map(f => (
-                  <tr key={f.datum + f.tegenstander}>
+                  <tr key={`${f.datum}-${f.tegenstander}`}>
                     <td>{formatDate(f.datum)}</td>
                     <td>{f.tegenstander}</td>
                     <td>{f.thuis ? 'Thuis' : 'Uit'}</td>
