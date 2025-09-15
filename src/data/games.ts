@@ -27,24 +27,53 @@ export interface Fixture {
   tegenstander: string;
   thuis: boolean;
   tijd: string; // HH:MM
-  locatie?: string; // optioneel
+  locatie?: string; // Korte beschrijving ("Terrein A", "Sportpark" etc.)
+  adres?: string;   // Straat + nr + gemeente
+  mapsUrl?: string; // Volledige Google Maps deeplink (https://maps.google.com/?q=...)
+  commentaar?: string;
 }
+
+// Gebruik van adres & mapsUrl:
+//  - Laat weg indien nog niet gekend.
+//  - 'adres' is plain tekst voor weergave in de UI.
+//  - 'mapsUrl' is een volledige link (kan target _blank) naar Google Maps zodat ouders/spelers snel kunnen navigeren.
+//  - Voor thuiswedstrijden kan mapsUrl desgewenst telkens hetzelfde terrein aanwijzen.
 
 export const upcoming: Fixture[] = [
   // LET OP: Data afkomstig van RBFA kalender (dynamic page). Alleen eerstvolgende match kon automatisch geïdentificeerd.
   // Vul de rest manueel aan zodra volledige kalender beschikbaar is in tekstvorm.
     // Volledige heenronde (najaar) volgens RBFA kalender (screenshots 19 sep -> 7 dec 2025)
-    { datum: '2025-09-19', tegenstander: 'VV-NEXT Laakdal', thuis: false, tijd: '20:00' },
+    { datum: '2025-09-19', tegenstander: 'VV-NEXT Laakdal', thuis: false, tijd: '20:00',
+      locatie: 'VV-NEXT Eindhout - Terr. 1',
+      adres: 'Rundershoek 32A, 2430 Eindhout',
+      mapsUrl: 'https://www.google.com/maps/place/VV-NEXT+Eindhout/@51.0999729,5.0011026,984m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c148f68dacfcc1:0xf53ce9c0234104b0!8m2!3d51.0999729!4d5.0036775!16s%2Fg%2F1tltlj5_?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D' },
     { datum: '2025-09-28', tegenstander: 'Football Girls Leuven A', thuis: true, tijd: '10:00' },
-    { datum: '2025-10-05', tegenstander: 'KFC Herent', thuis: false, tijd: '11:30' },
-    { datum: '2025-10-12', tegenstander: 'KSKS Herentals', thuis: true, tijd: '10:00' },
-    { datum: '2025-10-18', tegenstander: 'KFC Grobbendonk', thuis: false, tijd: '14:30' },
-    { datum: '2025-10-25', tegenstander: 'Zonhoven United', thuis: false, tijd: '13:00' },
+    { datum: '2025-10-05', tegenstander: 'KFC Herent', thuis: false, tijd: '11:30', 
+      locatie: 'De Kempen - Terr. 2',
+      adres: 'Mechelsesteenweg 634, 3020 Herent',
+      mapsUrl: 'https://www.google.com/maps/place/KFC+Herent/@50.9108746,4.6578789,988m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c1607ba9424f51:0x33c63d4611df0e7f!8m2!3d50.9108746!4d4.6604538!16s%2Fg%2F1pxwlkj15?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D'
+    },
+    { datum: '2025-10-12', tegenstander: 'KSKS Herentals', thuis: true, tijd: '10:00', commentaar: 'Forfait door KSKS Herentals' },
+    { datum: '2025-10-18', tegenstander: 'KFC Grobbendonk', thuis: false, tijd: '14:30', 
+      locatie: 'Cmp Grobbendonk - Terr. 1',
+      adres: 'Vaartkom 2, 2280 Grobbendonk',
+      mapsUrl: 'https://www.google.com/maps/place/KFC+Grobbendonk/@51.1902146,4.7318345,982m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c155766e7379a5:0x1130543b4389c75a!8m2!3d51.1902146!4d4.7344094!16s%2Fg%2F11gmc9mr9w?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D'
+ },
+    { datum: '2025-10-25', tegenstander: 'Zonhoven United', thuis: false, tijd: '13:00', 
+      locatie: 'De Basvelden - Terr. 2',
+      adres: 'Herestraat 124A, 3520 Zonhoven',
+      mapsUrl: 'https://www.google.com/maps/place/Zonhoven+United+-+Jeugdacademie/@50.9867578,5.3803551,987m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c126db6e22e5db:0x1e40501f4f8b20c5!8m2!3d50.9867579!4d5.385226!16s%2Fg%2F1v93_6cg?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D' },
     { datum: '2025-11-02', tegenstander: 'SV Grasheide', thuis: true, tijd: '10:00' },
     { datum: '2025-11-09', tegenstander: 'VV-NEXT Laakdal', thuis: true, tijd: '10:00' },
-    { datum: '2025-11-15', tegenstander: 'Football Girls Leuven A', thuis: false, tijd: '17:00' },
+    { datum: '2025-11-15', tegenstander: 'Football Girls Leuven A', thuis: false, tijd: '17:00', 
+      locatie: 'Boudewijnstadion',
+      adres: 'Stadionlaan 8, 3010 Kessel-Lo',
+      mapsUrl: 'https://www.google.com/maps/place/Boudewijnstadion/@50.8835806,4.7283799,1978m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c167237dc07261:0x65342f5c9b813b89!8m2!3d50.8835807!4d4.7332508!16s%2Fg%2F11j4swclzy?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D' },
     { datum: '2025-11-23', tegenstander: 'KFC Herent', thuis: true, tijd: '10:00' },
-    { datum: '2025-11-30', tegenstander: 'KSKS Herentals', thuis: false, tijd: '10:00' },
+    { datum: '2025-11-30', tegenstander: 'KSKS Herentals', thuis: false, tijd: '10:00', 
+      locatie: '',
+      adres: '',
+      mapsUrl: '', commentaar: 'Forfait door KSKS Herentals' },
     { datum: '2025-12-07', tegenstander: 'KFC Grobbendonk', thuis: true, tijd: '10:00' },
 ];
 

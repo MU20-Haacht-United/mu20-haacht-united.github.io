@@ -54,7 +54,7 @@ export default function GamesPage() {
           <div className="table-wrapper">
             <table>
               <thead>
-                <tr><th>Datum</th><th>Tegenstander</th><th>Thuis/Uit</th><th>Tijd</th><th>Locatie</th></tr>
+                <tr><th>Datum</th><th>Tegenstander</th><th>Thuis/Uit</th><th>Tijd</th><th>Locatie</th><th>Adres</th><th>Maps</th><th>Commentaar</th></tr>
               </thead>
               <tbody>
                 {upcoming.map(f => (
@@ -63,7 +63,10 @@ export default function GamesPage() {
                     <td>{f.tegenstander}</td>
                     <td>{f.thuis ? 'Thuis' : 'Uit'}</td>
                     <td>{f.tijd}</td>
-                    <td>{f.locatie}</td>
+                    <td>{f.locatie || '-'}</td>
+                    <td>{f.adres || '-'}</td>
+                    <td>{f.mapsUrl ? <a href={f.mapsUrl} target="_blank" rel="noopener noreferrer">🔗</a> : '-'}</td>
+                    <td>{f.commentaar || '-'}</td>
                   </tr>
                 ))}
               </tbody>

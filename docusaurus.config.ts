@@ -75,6 +75,7 @@ const config: Config = {
         {to: '/general-info', label: 'Algemene info', position: 'left'},
         {to: '/players', label: 'Speelsters', position: 'left'},
         {to: '/games', label: 'Wedstrijden & Statistieken', position: 'left'},
+  {to: '/duties', label: 'Shiften & Taken', position: 'left'},
   // Blog disabled
         {
           href: 'https://github.com/MU20-Haacht-United/MU20-Haacht-United',
@@ -100,6 +101,10 @@ const config: Config = {
             {
         label: 'Wedstrijden & Statistieken',
               to: '/games',
+            },
+            {
+        label: 'Shiften & Taken',
+              to: '/duties',
             },
           ],
         },

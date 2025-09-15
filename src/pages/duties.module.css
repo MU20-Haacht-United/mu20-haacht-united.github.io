@@ -1,0 +1,11 @@
+.note {
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  color: var(--ifm-color-primary-darker);
+}
+
+.subheading {
+  margin-top: 2rem;
+  color: var(--ifm-color-primary-dark);
+  font-size: 1.4rem;
+}
