@@ -12,6 +12,9 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  CLARITY_PROJECT_ID: ${{ secrets.CLARITY_PROJECT_ID }}
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages

@@ -5,6 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
+  plugins: [
+    [
+      '@gracefullight/docusaurus-plugin-microsoft-clarity',
+      { projectId: process.env.CLARITY_PROJECT_ID },
+    ],
+  ],
   title: 'MU20 Haacht United',
   tagline: 'U20 Meisjesvoetbalteam',
   favicon: 'img/hu.ico',
