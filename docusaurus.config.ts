@@ -25,7 +25,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'MU20-Haacht-United', // Usually your GitHub org/user name.
-  projectName: 'MU20-Haacht-United', // Usually your repo name.
+  projectName: 'mu20-haacht-united.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
