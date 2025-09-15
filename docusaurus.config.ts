@@ -71,7 +71,7 @@ const config: Config = {
       title: 'MU20 Haacht United',
       logo: {
         alt: 'MU20 Logo',
-        src: 'img/hu.png',
+        src: 'img/hu.jpg',
       },
       items: [
         {to: '/general-info', label: 'Algemene info', position: 'left'},
