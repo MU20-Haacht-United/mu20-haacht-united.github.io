@@ -69,7 +69,7 @@ npm run deploy
 - **Team Name**: MU20 Haacht United
 - **Category**: Girls Under 20
 - **Location**: Haacht, Belgium
-- **Contact**: info@mu20haachtunited.be
+- **Contact**: sujith.quintelier@gmail.com
 
 ## License
 
