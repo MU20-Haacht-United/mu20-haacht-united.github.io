@@ -101,11 +101,7 @@ const config: Config = {
           items: [
             {
               label: 'Email',
-              href: 'mailto:info@mu20haachtunited.be',
-            },
-            {
-              label: 'Facebook',
-              href: 'https://facebook.com/mu20haachtunited',
+              href: 'mailto:sujith.quintelier@gmail.com',
             },
           ],
         },
@@ -120,7 +116,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} MU20 Haacht United. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sujith Quintelier. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

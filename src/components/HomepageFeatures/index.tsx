@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Team Spirit',
+    title: 'Teamgeest',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Our girls under 20 team is built on strong team spirit, dedication, 
-        and passion for the beautiful game of soccer.
+        Ons MU20 team bouwt op sterke teamgeest, inzet en passie voor het mooie spel.
       </>
     ),
   },
   {
-    title: 'Focus on Development',
+    title: 'Focus op Ontwikkeling',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        We focus on developing young talent, improving skills, and building 
-        character both on and off the field. Every player matters.
+        We ontwikkelen jong talent, verfijnen techniek en bouwen karakter – op én naast het veld. Elke speelster telt.
       </>
     ),
   },
   {
-    title: 'Competitive Excellence',
+    title: 'Competitieve Ambitie',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        We strive for excellence in every match, training session, and team activity.
-        Together we aim to achieve our goals and celebrate our victories.
+        We streven naar het beste in elke wedstrijd en training. Samen jagen we onze doelen na en vieren we elke overwinning.
       </>
     ),
   },

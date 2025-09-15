@@ -17,23 +17,22 @@ Onze filosofie steunt op vier kernprincipes:
 
 ## Trainingsschema
 
-- **Trainingsdagen**: Dinsdag en donderdagavond, 19:00 - 20:30
-- **Locatie**: Sportcomplex Haacht, Haacht
-- **Wedstrijddagen**: Gewoonlijk zaterdag of zondag (schema varieert per seizoen)
+- **Trainingsdagen**: Maandag en donderdagavond, 20:00 - 21:30
+- **Locatie**: Campus Elleveld (Maandag) en Beverdijk (Donderdag)
+- **Wedstrijddagen**: Gewoonlijk zaterdag of zondag en sporadisch op vrijdag (schema varieert per seizoen)
 
 ## Technische Staf
 
 Onze ervaren staf zet zich in voor de ontwikkeling van jong talent:
 
-- **Hoofdcoach**: [Naam in te vullen]
-- **Assistent-coach**: [Naam in te vullen]
-- **Keeperstrainer**: [Naam in te vullen]
+- **Hoofdcoach**: Van Loo Andrew (Andy)
+- **Assistent-coach**: Lahor Marnix
 
 ## Contactgegevens
 
-- **Email**: info@mu20haachtunited.be
-- **Telefoon**: [Telefoonnummer nog toe te voegen]
-- **Adres**: Sportcomplex Haacht, Haacht, België
+- **Email**: sujith.quintelier@gmail.com
+- **Telefoon**: +32495892050
+- **Adres**: Campus Elleveld, Haacht, België
 
 ## Doelen Seizoen
 

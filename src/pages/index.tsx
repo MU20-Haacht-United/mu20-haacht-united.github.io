@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/general-info">
-            About Our Team ⚽
+            Over ons team ⚽
           </Link>
         </div>
       </div>
@@ -33,8 +33,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Welcome to ${siteConfig.title}`}
-      description="MU20 Haacht United - Girls Under 20 Soccer Team">
+      title={`Welkom bij ${siteConfig.title}`}
+      description="MU20 Haacht United - Meisjes U20 Voetbalteam">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
