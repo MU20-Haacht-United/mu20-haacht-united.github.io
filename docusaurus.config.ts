@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'MU20 Haacht United',
   tagline: 'U20 Meisjesvoetbalteam',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/hu.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -58,11 +58,18 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {name: 'theme-color', content: '#d0181e'},
+      {name: 'msapplication-TileColor', content: '#d0181e'},
+    ],
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: 'MU20 Haacht United',
       logo: {
         alt: 'MU20 Logo',
-        src: 'img/logo.svg',
+        src: 'img/hu.png',
       },
       items: [
         {to: '/general-info', label: 'Algemene info', position: 'left'},
