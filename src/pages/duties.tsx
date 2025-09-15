@@ -66,7 +66,7 @@ export default function DutiesPage() {
   });
   return (
   <Layout title="Shiften & Taken" description="Bar, fruit & was taken (thuis en uit)">
-      <main className={styles.container}>
+    <div className="container container--fluid margin-vert--lg">
         <h1>Shiften & Taken (Alle Wedstrijden)</h1>
         <table className={styles.table}>
           <thead>
@@ -111,7 +111,7 @@ export default function DutiesPage() {
             })}
           </tbody>
         </table>  
-      </main>
+      </div>
     </Layout>
   );
 }

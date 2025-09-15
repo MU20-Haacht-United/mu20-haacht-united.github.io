@@ -11,8 +11,8 @@ export default function GamesPage() {
 
   return (
     <Layout title="Wedstrijden & Statistieken" description="Resultaten en statistieken MU20 Haacht United">
-      <main className="container margin-vert--lg">
-        <h1>Wedstrijden &amp; Statistieken</h1>
+      <div className="container container--fluid margin-vert--lg">
+  <h1>Wedstrijden &amp; Statistieken</h1>
         <section>
           <h2>Seizoen 2024-2025 Overzicht</h2>
           <ul>
@@ -111,7 +111,7 @@ export default function GamesPage() {
           </div>
         </section>
   <p className={styles.note}>Data wordt centraal beheerd en kan eenvoudig aangepast worden in de data bestanden.</p>
-      </main>
+      </div>
     </Layout>
   );
 }

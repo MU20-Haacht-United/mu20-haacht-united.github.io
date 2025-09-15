@@ -1,0 +1,9 @@
+/*
+ * Constrained container for TSX pages to match Markdown layout
+ */
+.tsxContainer {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
