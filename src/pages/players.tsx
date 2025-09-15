@@ -25,7 +25,7 @@ export default function PlayersPage() {
                     <tr key={p.rugnummer}>
                       <td>{p.rugnummer}</td>
                       <td>{p.naam}</td>
-                      <td>{(p as any).wedstrijden ?? '-'}</td>
+                      <td>{'wedstrijden' in p ? (p as any).wedstrijden : '-'}</td>
                       <td>{formatPositions(p)}</td>
                       <td>{p.sterktes ? p.sterktes.join(', ') : '-'}</td>
                       <td>{p.rol || ''}</td>
