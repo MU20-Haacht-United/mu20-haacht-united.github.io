@@ -1,32 +1,32 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import { players, groupPlayersByPosition, staff } from '../data/players';
+import { playersWithStats, groupPlayersByPosition, staff, positionLabel, formatPositions } from '../data/players';
 import styles from './players.module.css';
 
 export default function PlayersPage() {
-  const grouped = groupPlayersByPosition(players);
+  const grouped = groupPlayersByPosition(playersWithStats);
   return (
     <Layout title="Speelsters" description="Overzicht van speelsters MU20 Haacht United">
       <main className="container margin-vert--lg">
         <h1>Speelsters</h1>
         <p>Maak kennis met de talentvolle kern van MU20 Haacht United.</p>
-        { (['Keeper','Verdediger','Middenvelder','Aanvaller'] as const).map(pos => (
-          <section key={pos} className={styles.section}>
-            <h2>{pos}{pos === 'Keeper' ? 's' : ''}</h2>
+        { ([1,2,3,4,5,6,7,8,9,10,11] as const).map(posNumber => (
+          <section key={posNumber} className={styles.section}>
+            <h2>Positie {posNumber} – {positionLabel(posNumber)}</h2>
             <div className="table-wrapper">
               <table>
                 <thead>
                   <tr>
-                    <th>#</th><th>Naam</th><th>Wedstrijden</th><th>Positie</th><th>Sterktes</th><th>Rol</th>
+                    <th>#</th><th>Naam</th><th>Wedstr.</th><th>Posities</th><th>Sterktes</th><th>Rol</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {grouped[pos].map(p => (
+                  {grouped[posNumber].map(p => (
                     <tr key={p.rugnummer}>
                       <td>{p.rugnummer}</td>
                       <td>{p.naam}</td>
-                      <td>{p.wedstrijden ?? '-'}</td>
-                      <td>{p.positie}</td>
+                      <td>{(p as any).wedstrijden ?? '-'}</td>
+                      <td>{formatPositions(p)}</td>
                       <td>{p.sterktes ? p.sterktes.join(', ') : '-'}</td>
                       <td>{p.rol || ''}</td>
                     </tr>

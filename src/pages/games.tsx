@@ -34,7 +34,7 @@ export default function GamesPage() {
               </thead>
               <tbody>
                 {matches.slice().sort((a,b) => b.datum.localeCompare(a.datum)).map(m => {
-                  const goals = m.events.filter(e => e.type==='goal').map(e => playerName(e.rugnummer) + ' ('+ e.minuut +"')").join(', ');
+                  const goals = m.events.filter(e => e.type==='goal').map(e => playerName(e.rugnummer)).join(', ');
                   return (
                     <tr key={m.datum + m.tegenstander}>
                       <td>{formatDate(m.datum)}</td>
