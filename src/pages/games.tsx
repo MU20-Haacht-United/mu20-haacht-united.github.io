@@ -11,7 +11,7 @@ export default function GamesPage() {
 
   return (
     <Layout title="Wedstrijden & Statistieken" description="Resultaten en statistieken MU20 Haacht United">
-      <div className="container container--fluid margin-vert--lg">
+  <div className="container container--fluid margin-vert--lg twp px-4 sm:px-6 lg:px-8">
   <h1>Wedstrijden &amp; Statistieken</h1>
         <section>
           <h2>Seizoen 2024-2025 Overzicht</h2>
@@ -27,8 +27,8 @@ export default function GamesPage() {
         </section>
   <section className={styles.mt2}>
           <h2>Recente Uitslagen</h2>
-          <div className="table-wrapper">
-            <table>
+          <div className="table-wrapper overflow-x-auto -mx-4 sm:mx-0">
+            <table className="min-w-full text-sm">
               <thead>
                 <tr><th>📅</th><th>🆚</th><th>🏠/✈️</th><th>💯</th><th>⚽</th></tr>
               </thead>
@@ -51,8 +51,8 @@ export default function GamesPage() {
         </section>
   <section className={styles.mt2}>
           <h2>Komende Wedstrijden</h2>
-          <div className="table-wrapper">
-            <table>
+          <div className="table-wrapper overflow-x-auto -mx-4 sm:mx-0">
+            <table className="min-w-full text-sm">
               <thead>
                 <tr><th>📅</th><th>🆚</th><th>🏠/✈️</th><th>🕐</th><th>📍</th><th>🏚</th><th>🗺</th><th>💬</th></tr>
               </thead>
@@ -83,8 +83,8 @@ export default function GamesPage() {
         </section>
   <section className={styles.mt2}>
           <h2>Ranglijst</h2>
-          <div className="table-wrapper">
-            <table>
+          <div className="table-wrapper overflow-x-auto -mx-4 sm:mx-0">
+            <table className="min-w-full text-sm">
               <thead>
                 <tr><th>Pos</th><th>Team</th><th>P</th><th>W</th><th>G</th><th>V</th><th>DV</th><th>DT</th><th>DS</th><th>Ptn</th></tr>
               </thead>

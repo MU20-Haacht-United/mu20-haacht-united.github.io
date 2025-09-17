@@ -36,8 +36,10 @@ export default function Home(): ReactNode {
       title={`Welkom bij ${siteConfig.title}`}
       description="MU20 Haacht United - Meisjes U20 Voetbalteam">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      <main className="twp px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <HomepageFeatures />
+        </div>
       </main>
     </Layout>
   );

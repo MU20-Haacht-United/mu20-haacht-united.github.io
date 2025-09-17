@@ -66,9 +66,10 @@ export default function DutiesPage() {
   });
   return (
   <Layout title="Shiften & Taken" description="🍻, fruit & was taken (thuis en uit)">
-    <div className="container container--fluid margin-vert--lg">
+  <div className="container container--fluid margin-vert--lg twp px-4 sm:px-6 lg:px-8">
         <h1>Shiften & Taken (Alle Wedstrijden)</h1>
-        <table className={styles.table}>
+  <div className="overflow-x-auto -mx-4 sm:mx-0 mb-8">
+  <table className={`${styles.table} min-w-full text-sm`}>
           <thead>
             <tr>
               <th>📅</th>
@@ -83,9 +84,11 @@ export default function DutiesPage() {
           <tbody>
             {data.map(d => <DutyRow key={d.datum} d={d} />)}
           </tbody>
-        </table>
+  </table>
+  </div>
   <h2 className={dutyStyles.subheading}>Overzicht per Speelster</h2>
-        <table className={styles.table}>
+  <div className="overflow-x-auto -mx-4 sm:mx-0">
+  <table className={`${styles.table} min-w-full text-sm`}>
           <thead>
             <tr>
               <th>Speelster</th>
@@ -110,7 +113,8 @@ export default function DutiesPage() {
               );
             })}
           </tbody>
-        </table>  
+  </table>  
+  </div>
       </div>
     </Layout>
   );

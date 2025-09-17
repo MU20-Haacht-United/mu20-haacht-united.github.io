@@ -6,6 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   plugins: [
+    'docusaurus-tailwindcss-loader',
     ...(process.env.CLARITY_PROJECT_ID
       ? [[
           '@gracefullight/docusaurus-plugin-microsoft-clarity',
