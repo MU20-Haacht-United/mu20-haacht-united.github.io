@@ -65,19 +65,19 @@ export default function DutiesPage() {
     if (d.was && hasPlayedDuty[d.was]) hasPlayedDuty[d.was].was = true;
   });
   return (
-  <Layout title="Shiften & Taken" description="Bar, fruit & was taken (thuis en uit)">
+  <Layout title="Shiften & Taken" description="🍻, fruit & was taken (thuis en uit)">
     <div className="container container--fluid margin-vert--lg">
         <h1>Shiften & Taken (Alle Wedstrijden)</h1>
         <table className={styles.table}>
           <thead>
             <tr>
-              <th>Datum</th>
-              <th>Tegenstander</th>
-              <th>Thuis/Uit</th>
-              <th>Bar (2)</th>
-              <th>Fruit</th>
-              <th>Was</th>
-              <th>Status</th>
+              <th>📅</th>
+              <th>🆚</th>
+              <th>🏠/✈️</th>
+              <th>🍻 (2)</th>
+              <th>🍏</th>
+              <th>🧺</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
@@ -89,9 +89,9 @@ export default function DutiesPage() {
           <thead>
             <tr>
               <th>Speelster</th>
-              <th>Bar</th>
-              <th>Fruit</th>
-              <th>Was</th>
+              <th>🍻</th>
+              <th>🍏</th>
+              <th>🧺</th>
               <th>Totaal</th>
             </tr>
           </thead>

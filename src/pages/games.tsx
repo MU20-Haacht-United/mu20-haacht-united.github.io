@@ -19,7 +19,7 @@ export default function GamesPage() {
             <li><strong>Gespeeld:</strong> {stats.totaal}</li>
             <li><strong>Winst / Gelijk / Verlies:</strong> {stats.winst} / {stats.gelijk} / {stats.verlies}</li>
             <li><strong>Punten:</strong> {stats.punten}</li>
-            <li><strong>Doelpunten:</strong> {stats.goalsVoor} ({stats.goalsPerWedstrijd.toFixed(2)} p/w)</li>
+            <li><strong>⚽:</strong> {stats.goalsVoor} ({stats.goalsPerWedstrijd.toFixed(2)} p/w)</li>
             <li><strong>Tegendoelpunten:</strong> {stats.goalsTegen}</li>
             <li><strong>Doelsaldo:</strong> {stats.doelsaldo}</li>
             <li><strong>Clean sheets:</strong> {stats.cleanSheets}</li>
@@ -30,7 +30,7 @@ export default function GamesPage() {
           <div className="table-wrapper">
             <table>
               <thead>
-                <tr><th>Datum</th><th>Tegenstander</th><th>Thuis/Uit</th><th>Uitslag</th><th>Doelpunten</th></tr>
+                <tr><th>📅</th><th>🆚</th><th>🏠/✈️</th><th>💯</th><th>⚽</th></tr>
               </thead>
               <tbody>
                 {matches.slice().sort((a,b) => b.datum.localeCompare(a.datum)).map(m => {
@@ -39,7 +39,7 @@ export default function GamesPage() {
                     <tr key={`${m.datum}-${m.tegenstander}`}>
                       <td>{formatDate(m.datum)}</td>
                       <td>{m.tegenstander}</td>
-                      <td>{m.thuis ? 'Thuis' : 'Uit'}</td>
+                      <td>{m.thuis ? '🏠' : '✈️'}</td>
                       <td>{m.goalsVoor}-{m.goalsTegen}</td>
                       <td>{goals || '-'}</td>
                     </tr>
@@ -54,14 +54,14 @@ export default function GamesPage() {
           <div className="table-wrapper">
             <table>
               <thead>
-                <tr><th>Datum</th><th>Tegenstander</th><th>Thuis/Uit</th><th>Tijd</th><th>Locatie</th><th>Adres</th><th>Maps</th><th>Commentaar</th></tr>
+                <tr><th>📅</th><th>🆚</th><th>🏠/✈️</th><th>🕐</th><th>📍</th><th>🏚</th><th>🗺</th><th>💬</th></tr>
               </thead>
               <tbody>
                 {upcoming.map(f => (
                   <tr key={`${f.datum}-${f.tegenstander}`}>
                     <td>{formatDate(f.datum)}</td>
                     <td>{f.tegenstander}</td>
-                    <td>{f.thuis ? 'Thuis' : 'Uit'}</td>
+                    <td>{f.thuis ? '🏠' : '✈️'}</td>
                     <td>{f.tijd}</td>
                     <td>{f.locatie || '-'}</td>
                     <td>{f.adres || '-'}</td>

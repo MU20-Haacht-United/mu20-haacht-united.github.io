@@ -22,7 +22,7 @@ export default function GeneralInfo() {
         <h2>Trainingsschema</h2>
         <ul>
           <li><strong>Trainingsdagen</strong>: Maandag en donderdagavond, 20:00 - 21:30</li>
-          <li><strong>Locatie</strong>: Campus Elleveld (Maandag) en Beverdijk (Donderdag)</li>
+          <li><strong>📍</strong>: Campus Elleveld (Maandag) en Beverdijk (Donderdag)</li>
           <li><strong>Wedstrijddagen</strong>: Gewoonlijk zaterdag of zondag en sporadisch op vrijdag (schema varieert per seizoen)</li>
         </ul>
         <h2>Technische Staf</h2>
@@ -35,7 +35,7 @@ export default function GeneralInfo() {
         <ul>
           <li><strong>Email</strong>: sujith.quintelier@gmail.com</li>
           <li><strong>Telefoon</strong>: +32495892050</li>
-          <li><strong>Adres</strong>: Campus Elleveld, Haacht, België</li>
+          <li><strong>🏚</strong>: Campus Elleveld, Haacht, België</li>
         </ul>
         <h2>Doelen Seizoen</h2>
         <p>Dit seizoen willen we:</p>

@@ -45,22 +45,22 @@ function getAllGames() {
 
 // Manuele lijst met assignments (start leeg of met reeds ingevoerde).
 // Gebruik rugnummers zodat naamwijzigingen geen impact hebben.
-// Voorbeeld: { datum: '2025-09-28', tegenstander: 'Football Girls Leuven A', thuis: true, bar: [7,12], fruit: 15, was: 11 }
+// Voorbeeld: { datum: '2025-09-28', tegenstander: 'Leuven', thuis: true, bar: [7,12], fruit: 15, was: 11 }
 export const dutyAssignments: DutyAssignment[] = [
-  { datum: '2025-09-07', tegenstander: 'Zonhoven United', thuis: true, bar: [9,12], fruit: 9, was: 9, gespeeld: true },
-  { datum: '2025-09-14', tegenstander: 'SV Grasheide', thuis: true, bar: [], fruit: 1, was: 1, gespeeld: true },
-  { datum: '2025-09-19', tegenstander: 'VV-NEXT Laakdal', thuis: false, bar: [], fruit: 2, was: 2, gespeeld: false },
-  { datum: '2025-09-28', tegenstander: 'Football Girls Leuven A', thuis: true, bar: [1,2], fruit: 3, was: 3, gespeeld: true },
-  { datum: '2025-10-05', tegenstander: 'KFC Herent', thuis: false, bar: [], fruit: 4, was: 4, gespeeld: false },
-  { datum: '2025-10-12', tegenstander: 'KSKS Herentals', thuis: true, bar: [], gespeeld: false, nvt: true },
-  { datum: '2025-10-18', tegenstander: 'KFC Grobbendonk', thuis: false, bar: [], fruit: 6, was: 6, gespeeld: false },
-  { datum: '2025-10-25', tegenstander: 'Zonhoven United', thuis: false, bar: [], fruit: 7, was: 7, gespeeld: false },
-  { datum: '2025-11-02', tegenstander: 'SV Grasheide', thuis: true, bar: [3,4], fruit: 8, was: 8, gespeeld: false },
-  { datum: '2025-11-09', tegenstander: 'VV-NEXT Laakdal', thuis: true, bar: [5,6], fruit: 10, was: 10, gespeeld: false },
-  { datum: '2025-11-15', tegenstander: 'Football Girls Leuven A', thuis: false, bar: [], fruit: 11, was: 11, gespeeld: false },
-  { datum: '2025-11-23', tegenstander: 'KFC Herent', thuis: true, bar: [7,8], fruit: 12, was: 12, gespeeld: false },
-  { datum: '2025-11-30', tegenstander: 'KSKS Herentals', thuis: false, bar: [], gespeeld: false, nvt: true},
-  { datum: '2025-12-07', tegenstander: 'KFC Grobbendonk', thuis: true, bar: [10,11], fruit: 14, was: 14, gespeeld: false },
+  { datum: '2025-09-07', tegenstander: 'Zonhoven', thuis: true, bar: [9,12], fruit: 9, was: 9, gespeeld: true },
+  { datum: '2025-09-14', tegenstander: 'Grasheide', thuis: true, bar: [], fruit: 1, was: 1, gespeeld: true },
+  { datum: '2025-09-19', tegenstander: 'Laakdal', thuis: false, bar: [], fruit: 2, was: 2, gespeeld: false },
+  { datum: '2025-09-28', tegenstander: 'Leuven', thuis: true, bar: [1,2], fruit: 3, was: 3, gespeeld: true },
+  { datum: '2025-10-05', tegenstander: 'Herent', thuis: false, bar: [], fruit: 4, was: 4, gespeeld: false },
+  { datum: '2025-10-12', tegenstander: 'Herentals', thuis: true, bar: [], gespeeld: false, nvt: true },
+  { datum: '2025-10-18', tegenstander: 'Grobbendonk', thuis: false, bar: [], fruit: 6, was: 6, gespeeld: false },
+  { datum: '2025-10-25', tegenstander: 'Zonhoven', thuis: false, bar: [], fruit: 7, was: 7, gespeeld: false },
+  { datum: '2025-11-02', tegenstander: 'Grasheide', thuis: true, bar: [3,4], fruit: 8, was: 8, gespeeld: false },
+  { datum: '2025-11-09', tegenstander: 'Laakdal', thuis: true, bar: [5,6], fruit: 10, was: 10, gespeeld: false },
+  { datum: '2025-11-15', tegenstander: 'Leuven', thuis: false, bar: [], fruit: 11, was: 11, gespeeld: false },
+  { datum: '2025-11-23', tegenstander: 'Herent', thuis: true, bar: [7,8], fruit: 12, was: 12, gespeeld: false },
+  { datum: '2025-11-30', tegenstander: 'Herentals', thuis: false, bar: [], gespeeld: false, nvt: true},
+  { datum: '2025-12-07', tegenstander: 'Grobbendonk', thuis: true, bar: [10,11], fruit: 14, was: 14, gespeeld: false },
 ];
 
 // Helpers om suggesties te maken voor nog niet ingevulde shiften.
