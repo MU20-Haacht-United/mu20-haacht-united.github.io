@@ -54,15 +54,15 @@ export default function GamesPage() {
           <div className="table-wrapper overflow-x-auto -mx-4 sm:mx-0">
             <table className="min-w-full text-sm">
               <thead>
-                <tr><th>📅</th><th>🆚</th><th>🏠/✈️</th><th>🕐</th><th>📍</th><th>🏚</th><th>🗺</th><th>💬</th></tr>
+                <tr><th>📅</th><th>🕐</th><th>🆚</th><th>🏠/✈️</th><th>📍</th><th>🏚</th><th>🗺</th><th>💬</th></tr>
               </thead>
               <tbody>
                 {upcoming.map(f => (
                   <tr key={`${f.datum}-${f.tegenstander}`}>
                     <td>{formatDate(f.datum)}</td>
+                    <td>{f.tijd}</td>
                     <td>{f.tegenstander}</td>
                     <td>{f.thuis ? '🏠' : '✈️'}</td>
-                    <td>{f.tijd}</td>
                     <td>{f.locatie || '-'}</td>
                     <td>{f.adres || '-'}</td>
                     <td>{f.mapsUrl ? <a href={f.mapsUrl} target="_blank" rel="noopener noreferrer">🔗</a> : '-'}</td>
@@ -77,7 +77,7 @@ export default function GamesPage() {
           <h2>Topscorers</h2>
           <ol>
             {scorers.map(s => (
-              <li key={s.rugnummer}><strong>{playerName(s.rugnummer)}</strong> - {s.goals} doelpunt(en)</li>
+              <li key={s.rugnummer}><strong>{playerName(s.rugnummer)}</strong> - {s.goals} doelpunt{(s.goals > 1) && 'en'}</li>
             ))}
           </ol>
         </section>

@@ -19,7 +19,7 @@ export interface Match {
 export const matches: Match[] = [
   { datum: '2025-09-07', tegenstander: 'Zonhoven', thuis: true, goalsVoor: 0, goalsTegen: 2, competitie: true, events: [ ], players: [1,2,3,4,5,6,7, 9,10,11,12,13, 16,17,19] },
   { datum: '2025-09-14', tegenstander: 'Grasheide', thuis: true, goalsVoor: 3, goalsTegen: 0, competitie: true, events: [ { rugnummer: 19, type: 'goal' }, { rugnummer: 12, type: 'goal' }, { rugnummer: 1, type: 'goal' } ], players: [1,2,5,7,9,10,11,12,13,16,17,19,20,25,26] },
-  { datum: '2025-09-19', tegenstander: 'Laakdal', thuis: false, goalsVoor: 0, goalsTegen: 0, competitie: true, events: [{ rugnummer: 13, type: 'goal' }, { rugnummer: 12, type: 'goal' }, { rugnummer: 12, type: 'goal' }], players: [1,2,3,7,10,11,12,13,15,16,17,19,20,21,25] },
+  { datum: '2025-09-19', tegenstander: 'Laakdal', thuis: false, goalsVoor: 3, goalsTegen: 0, competitie: true, events: [{ rugnummer: 13, type: 'goal' }, { rugnummer: 12, type: 'goal' }, { rugnummer: 12, type: 'goal' }], players: [1,2,3,7,10,11,12,13,15,16,17,19,20,21,25] },
 ];
 
 // Komende fixtures
