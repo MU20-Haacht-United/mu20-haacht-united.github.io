@@ -72,8 +72,8 @@ export function computePlayerStats(base: Player[]): PlayerWithStats[] {
   const cleanSheets = new Map<number, number>();
 
   matches.forEach(m => {
-    // appearances
-    m.players.forEach(r => {
+    // appearances (deduplicate within a single match to avoid inflated counts)
+    new Set(m.players).forEach(r => {
       appearances.set(r, (appearances.get(r) || 0) + 1);
     });
     // goals

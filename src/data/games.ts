@@ -19,7 +19,7 @@ export interface Match {
 export const matches: Match[] = [
   { datum: '2025-09-07', tegenstander: 'Zonhoven', thuis: true, goalsVoor: 0, goalsTegen: 2, competitie: true, events: [ ], players: [1,2,3,4,5,6,7, 9,10,11,12,13, 16,17,19] },
   { datum: '2025-09-14', tegenstander: 'Grasheide', thuis: true, goalsVoor: 3, goalsTegen: 0, competitie: true, events: [ { rugnummer: 19, type: 'goal' }, { rugnummer: 12, type: 'goal' }, { rugnummer: 1, type: 'goal' } ], players: [1,2,5,7,9,10,11,12,13,16,17,19,20,25,26] },
-  { datum: '2025-09-19', tegenstander: 'Laakdal', thuis: false, goalsVoor: 0, goalsTegen: 0, competitie: true, events: [ ], players: [11,2,3,7,10,11,12,13,15,16,17,19,20,21,25] },
+  { datum: '2025-09-19', tegenstander: 'Laakdal', thuis: false, goalsVoor: 0, goalsTegen: 0, competitie: true, events: [{ rugnummer: 13, type: 'goal' }, { rugnummer: 12, type: 'goal' }, { rugnummer: 12, type: 'goal' }], players: [1,2,3,7,10,11,12,13,15,16,17,19,20,21,25] },
 ];
 
 // Komende fixtures
@@ -51,7 +51,7 @@ export const upcoming: Fixture[] = [
       adres: 'Mechelsesteenweg 634, 3020 Herent',
       mapsUrl: 'https://www.google.com/maps/place/KFC+Herent/@50.9108746,4.6578789,988m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c1607ba9424f51:0x33c63d4611df0e7f!8m2!3d50.9108746!4d4.6604538!16s%2Fg%2F1pxwlkj15?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D'
     },
-    { datum: '2025-10-12', tegenstander: 'Herentals', thuis: true, tijd: '10:00', commentaar: 'Forfait door Herentals' },
+    // { datum: '2025-10-12', tegenstander: 'Herentals', thuis: true, tijd: '10:00', commentaar: 'Forfait door Herentals' },
     { datum: '2025-10-18', tegenstander: 'Grobbendonk', thuis: false, tijd: '14:30', 
       locatie: 'Cmp Grobbendonk - Terr. 1',
       adres: 'Vaartkom 2, 2280 Grobbendonk',
@@ -68,10 +68,10 @@ export const upcoming: Fixture[] = [
       adres: 'Stadionlaan 8, 3010 Kessel-Lo',
       mapsUrl: 'https://www.google.com/maps/place/Boudewijnstadion/@50.8835806,4.7283799,1978m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c167237dc07261:0x65342f5c9b813b89!8m2!3d50.8835807!4d4.7332508!16s%2Fg%2F11j4swclzy?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D' },
     { datum: '2025-11-23', tegenstander: 'Herent', thuis: true, tijd: '10:00' },
-    { datum: '2025-11-30', tegenstander: 'Herentals', thuis: false, tijd: '10:00', 
-      locatie: '',
-      adres: '',
-      mapsUrl: '', commentaar: 'Forfait door Herentals' },
+    // { datum: '2025-11-30', tegenstander: 'Herentals', thuis: false, tijd: '10:00', 
+    //   locatie: '',
+    //   adres: '',
+    //   mapsUrl: '', commentaar: 'Forfait door Herentals' },
     { datum: '2025-12-07', tegenstander: 'Grobbendonk', thuis: true, tijd: '10:00' },
 ];
 
@@ -100,6 +100,7 @@ export interface LeagueMatch {
   uitGoals: number;
   // Optioneel referentie naar originele Match (voor ons eigen team) - kan gebruikt worden voor linking
   sourceMatchIndex?: number;
+  gespeeld?: boolean;
 }
 
 // Helper: converteer de huidige "matches" (waar MU20 speelt) naar LeagueMatch records
@@ -122,12 +123,27 @@ function ownMatchesToLeague(): LeagueMatch[] {
 // BELANGRIJK: Voeg hier GEEN wedstrijden toe waar "Haacht United" (OUR_TEAM_NAME) in voorkomt, die worden al
 // automatisch gegenereerd vanuit `matches` via ownMatchesToLeague() -> anders worden ze dubbel geteld.
 const externalResults: LeagueMatch[] = [
-  { datum: '2025-09-05', thuisTeam: 'Laakdal', uitTeam: 'Grasheide', thuisGoals: 2, uitGoals: 1 },
-  { datum: '2025-09-06', thuisTeam: 'Leuven', uitTeam: 'Grobbendonk', thuisGoals: 8, uitGoals: 1 },
-  { datum: '2025-09-07', thuisTeam: 'Herent', uitTeam: 'Herentals', thuisGoals: 5, uitGoals: 0 },
-  { datum: '2025-09-13', thuisTeam: 'Zonhoven', uitTeam: 'Leuven', thuisGoals: 1, uitGoals: 4 },
-  { datum: '2025-09-13', thuisTeam: 'Grobbendonk', uitTeam: 'Herent', thuisGoals: 3, uitGoals: 7 },
-  { datum: '2025-09-14', thuisTeam: 'Herentals', uitTeam: 'Laakdal', thuisGoals: 0, uitGoals: 5 },
+  { datum: '2025-09-05', thuisTeam: 'Laakdal', uitTeam: 'Grasheide', thuisGoals: 2, uitGoals: 1, gespeeld: true },
+  { datum: '2025-09-06', thuisTeam: 'Leuven', uitTeam: 'Grobbendonk', thuisGoals: 8, uitGoals: 1, gespeeld: true },
+
+  { datum: '2025-09-13', thuisTeam: 'Zonhoven', uitTeam: 'Leuven', thuisGoals: 1, uitGoals: 4, gespeeld: true },
+  { datum: '2025-09-13', thuisTeam: 'Grobbendonk', uitTeam: 'Herent', thuisGoals: 3, uitGoals: 7, gespeeld: true },
+
+  { datum: '2025-09-20', thuisTeam: 'Leuven', uitTeam: 'Grasheide', thuisGoals: 4, uitGoals: 0, gespeeld: true },
+  { datum: '2025-09-21', thuisTeam: 'Herent', uitTeam: 'Zonhoven', thuisGoals: 6, uitGoals: 4, gespeeld: true },
+
+  { datum: '2025-09-27', thuisTeam: 'Grobbendonk', uitTeam: 'Laakdal', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+  { datum: '2025-09-28', thuisTeam: 'Grasheide', uitTeam: 'Herent', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+
+  { datum: '2025-10-04', thuisTeam: 'Grobbendonk', uitTeam: 'Zonhoven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+  { datum: '2025-10-05', thuisTeam: 'Laakdal', uitTeam: 'Leuven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+
+  { datum: '2025-10-10', thuisTeam: 'Laakdal', uitTeam: 'Zonhoven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+  { datum: '2025-10-11', thuisTeam: 'Leuven', uitTeam: 'Herent', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+  { datum: '2025-10-12', thuisTeam: 'Grasheide', uitTeam: 'Grobbendonk', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+
+  { datum: '2025-10-18', thuisTeam: 'Zonhoven', uitTeam: 'Grasheide', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+  { datum: '2025-10-05', thuisTeam: 'Herent', uitTeam: 'Laakdal', thuisGoals: 0, uitGoals: 0, gespeeld: false },
 ];
 
 // Combineer & dedupliceer (datum+thuis+uit). Dit beschermt tegen per ongeluk dubbel ingeven.
@@ -164,6 +180,8 @@ export function computeLeagueTable(rows: LeagueMatch[]): TableRow[] {
     return map.get(team)!;
   };
   rows.forEach(m => {
+    // Neem enkel gespeelde wedstrijden op; behandel 'undefined' als gespeeld (voor eigen matches uit `matches`).
+    if (m.gespeeld === false) return;
     const home = ensure(m.thuisTeam);
     const away = ensure(m.uitTeam);
     home.gespeeld++; away.gespeeld++;
@@ -192,9 +210,12 @@ export function computeLeagueTable(rows: LeagueMatch[]): TableRow[] {
 export const leagueTable: TableRow[] = computeLeagueTable(allLeagueMatches);
 
 export function computeTeamStats(list: Match[]) {
-  const totaal = list.length;
+  // Een match telt als 'gespeeld' voor stats als die ook in de competitiematrix als gespeeld geldt of als er een uitslag (goalsVoor/goalsTegen) is ingevuld.
+  // In deze dataset zijn onze eigen matches reeds resultaten; we pushen defensief een extra guard:
+  const played = list.filter(m => Number.isFinite(m.goalsVoor) && Number.isFinite(m.goalsTegen));
+  const totaal = played.length;
   let winst = 0, gelijk = 0, verlies = 0, goalsVoor = 0, goalsTegen = 0, cleanSheets = 0;
-  list.forEach(m => {
+  played.forEach(m => {
     goalsVoor += m.goalsVoor; goalsTegen += m.goalsTegen;
     if (m.goalsVoor > m.goalsTegen) winst++; else if (m.goalsVoor === m.goalsTegen) gelijk++; else verlies++;
     if (m.goalsTegen === 0) cleanSheets++;
@@ -207,6 +228,7 @@ export interface ScorerRow { rugnummer: number; goals: number; }
 
 export function goalRanking(list: Match[]): ScorerRow[] {
   const map = new Map<number, number>();
+  // Enkel doelpunten uit gespeelde wedstrijden meetellen
   list.forEach(m => m.events.filter(e => e.type === 'goal').forEach(e => {
     map.set(e.rugnummer, (map.get(e.rugnummer) || 0) + 1);
   }));
