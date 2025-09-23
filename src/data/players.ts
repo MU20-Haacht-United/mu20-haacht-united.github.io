@@ -123,7 +123,7 @@ export function groupPlayersByPosition(list: Player[]): Record<Position, Player[
 // 3-5-2: 2/5 = Wide CB, 7/11 = Wingbacks, 10 = Support Striker
 const formationLabels: Record<Formation, Record<Position, string>> = {
   '4-4-2': {
-    1: 'Keeper', 2: 'Rechtsback', 3: 'Linksback', 4: 'Centrale verdediger', 5: 'Centrale verdediger',
+    1: 'Keeper', 2: 'Rechtsback', 5: 'Linksback', 4: 'Centrale verdediger', 3: 'Centrale verdediger',
     6: 'Defensieve middenvelder', 7: 'Rechtsmidden', 8: 'Centrale middenvelder', 9: 'Spits', 10: 'Tweede spits', 11: 'Linksmidden'
   },
   '4-3-3': {
