@@ -125,7 +125,7 @@ const formationLabels: Record<Formation, Record<Position, string>> = {
   '4-4-2': {
     1: 'Keeper', 2: 'Rechtsback', 5: 'Linksback', 4: 'Centrale verdediger', 3: 'Centrale verdediger',
     6: 'Defensieve middenvelder', 7: 'Rechtsmidden', 8: 'Centrale middenvelder', 9: 'Spits', 10: 'Tweede spits', 11: 'Linksmidden'
-  },
+  }, //16, 18, 1, 10, 14, 11, 6, 8, 19, 12, 13, 17, 9, 25, 15
   '4-3-3': {
     1: 'Keeper', 2: 'Rechtsback', 3: 'Linksback', 4: 'Centrale verdediger', 5: 'Centrale verdediger',
     6: 'Controleur', 7: 'Rechtsbuiten', 8: 'Box-to-box', 9: 'Spits', 10: 'Aanvallende middenvelder', 11: 'Linksbuiten'
