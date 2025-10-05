@@ -29,7 +29,7 @@ export const matches: Match[] = [
     { rugnummer: 1, type: 'goal' },
     { rugnummer: 11, type: 'goal' },
     { rugnummer: 1, type: 'goal' },
-    { rugnummer: 21, type: 'goal' },
+    { rugnummer: 25, type: 'goal' },
     { rugnummer: 9, type: 'goal' },
     { rugnummer: 12, type: 'goal' },
     { rugnummer: 6, type: 'goal' },
