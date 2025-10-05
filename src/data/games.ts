@@ -25,7 +25,7 @@ export const matches: Match[] = [
     { rugnummer: 12, type: 'goal' }, 
     { rugnummer: 12, type: 'goal' }], players: [1,2,3,7,10,11,12,13,15,16,17,19,20,21,25] },
   { datum: '2025-09-28', tegenstander: 'Leuven', thuis: true, goalsVoor: 1, goalsTegen: 4, competitie: true, events: [{ rugnummer: 1, type: 'goal' }], players: [3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,25] },
-  { datum: '2025-10-05', tegenstander: 'Herent', thuis: false, goalsVoor: 1, goalsTegen: 8, competitie: true, events: [{ rugnummer: 12, type: 'goal' },
+  { datum: '2025-10-05', tegenstander: 'Herent', thuis: false, goalsVoor: 8, goalsTegen: 1, competitie: true, events: [{ rugnummer: 12, type: 'goal' },
     { rugnummer: 1, type: 'goal' },
     { rugnummer: 11, type: 'goal' },
     { rugnummer: 1, type: 'goal' },
