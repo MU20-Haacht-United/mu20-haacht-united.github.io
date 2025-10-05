@@ -18,9 +18,23 @@ export interface Match {
 // Resultaten (gespeelde wedstrijden)
 export const matches: Match[] = [
   { datum: '2025-09-07', tegenstander: 'Zonhoven', thuis: true, goalsVoor: 0, goalsTegen: 2, competitie: true, events: [ ], players: [1,2,3,4,5,6,7, 9,10,11,12,13, 16,17,19] },
-  { datum: '2025-09-14', tegenstander: 'Grasheide', thuis: true, goalsVoor: 3, goalsTegen: 0, competitie: true, events: [ { rugnummer: 19, type: 'goal' }, { rugnummer: 12, type: 'goal' }, { rugnummer: 1, type: 'goal' } ], players: [1,2,5,7,9,10,11,12,13,16,17,19,20,25,26] },
-  { datum: '2025-09-19', tegenstander: 'Laakdal', thuis: false, goalsVoor: 3, goalsTegen: 0, competitie: true, events: [{ rugnummer: 13, type: 'goal' }, { rugnummer: 12, type: 'goal' }, { rugnummer: 12, type: 'goal' }], players: [1,2,3,7,10,11,12,13,15,16,17,19,20,21,25] },
+  { datum: '2025-09-14', tegenstander: 'Grasheide', thuis: true, goalsVoor: 3, goalsTegen: 0, competitie: true, events: [ { rugnummer: 19, type: 'goal' }, 
+    { rugnummer: 12, type: 'goal' }, 
+    { rugnummer: 1, type: 'goal' } ], players: [1,2,5,7,9,10,11,12,13,16,17,19,20,25,26] },
+  { datum: '2025-09-19', tegenstander: 'Laakdal', thuis: false, goalsVoor: 3, goalsTegen: 0, competitie: true, events: [{ rugnummer: 13, type: 'goal' }, 
+    { rugnummer: 12, type: 'goal' }, 
+    { rugnummer: 12, type: 'goal' }], players: [1,2,3,7,10,11,12,13,15,16,17,19,20,21,25] },
   { datum: '2025-09-28', tegenstander: 'Leuven', thuis: true, goalsVoor: 1, goalsTegen: 4, competitie: true, events: [{ rugnummer: 1, type: 'goal' }], players: [3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,25] },
+  { datum: '2025-10-05', tegenstander: 'Herent', thuis: false, goalsVoor: 1, goalsTegen: 8, competitie: true, events: [{ rugnummer: 12, type: 'goal' },
+    { rugnummer: 1, type: 'goal' },
+    { rugnummer: 11, type: 'goal' },
+    { rugnummer: 1, type: 'goal' },
+    { rugnummer: 21, type: 'goal' },
+    { rugnummer: 9, type: 'goal' },
+    { rugnummer: 12, type: 'goal' },
+    { rugnummer: 6, type: 'goal' },
+  ], players: [21, 6, 10, 16,11,9,2,12,13,15,19,5,1,17,18] },
+  
 ];
 
 // Komende fixtures
@@ -45,13 +59,6 @@ export const upcoming: Fixture[] = [
   // LET OP: Data afkomstig van RBFA kalender (dynamic page). Alleen eerstvolgende match kon automatisch geïdentificeerd.
   // Vul de rest manueel aan zodra volledige kalender beschikbaar is in tekstvorm.
     // Volledige heenronde (najaar) volgens RBFA kalender (screenshots 19 sep -> 7 dec 2025)
-    
-    { datum: '2025-10-05', tegenstander: 'Herent', thuis: false, tijd: '10:00', 
-      locatie: 'De Kempen - Terr. 2',
-      adres: 'Mechelsesteenweg 634, 3020 Herent',
-      mapsUrl: 'https://www.google.com/maps/place/KFC+Herent/@50.9108746,4.6578789,988m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c1607ba9424f51:0x33c63d4611df0e7f!8m2!3d50.9108746!4d4.6604538!16s%2Fg%2F1pxwlkj15?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D'
-    },
-    // { datum: '2025-10-12', tegenstander: 'Herentals', thuis: true, tijd: '10:00', commentaar: 'Forfait door Herentals' },
     { datum: '2025-10-18', tegenstander: 'Grobbendonk', thuis: false, tijd: '14:30', 
       locatie: 'Cmp Grobbendonk - Terr. 1',
       adres: 'Vaartkom 2, 2280 Grobbendonk',
@@ -135,8 +142,8 @@ const externalResults: LeagueMatch[] = [
   { datum: '2025-09-27', thuisTeam: 'Grobbendonk', uitTeam: 'Laakdal', thuisGoals: 0, uitGoals: 11, gespeeld: true },
   { datum: '2025-09-28', thuisTeam: 'Grasheide', uitTeam: 'Herent', thuisGoals: 3, uitGoals: 1, gespeeld: true },
 
-  { datum: '2025-10-04', thuisTeam: 'Grobbendonk', uitTeam: 'Zonhoven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
-  { datum: '2025-10-05', thuisTeam: 'Laakdal', uitTeam: 'Leuven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+  { datum: '2025-10-04', thuisTeam: 'Grobbendonk', uitTeam: 'Zonhoven', thuisGoals: 0, uitGoals: 3, gespeeld: true },
+  { datum: '2025-10-05', thuisTeam: 'Laakdal', uitTeam: 'Leuven', thuisGoals: 4, uitGoals: 5, gespeeld: true },
 
   { datum: '2025-10-10', thuisTeam: 'Laakdal', uitTeam: 'Zonhoven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
   { datum: '2025-10-11', thuisTeam: 'Leuven', uitTeam: 'Herent', thuisGoals: 0, uitGoals: 0, gespeeld: false },
