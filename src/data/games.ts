@@ -34,6 +34,7 @@ export const matches: Match[] = [
     { rugnummer: 12, type: 'goal' },
     { rugnummer: 6, type: 'goal' },
   ], players: [21, 6, 10, 16,11,9,2,12,13,15,19,5,1,17,18] },
+  { datum: '2025-10-18', tegenstander: 'Grobbendonk', thuis: false, goalsVoor: 1, goalsTegen: 3, competitie: true, events: [{ rugnummer: 6, type: 'goal' }], players: [25, 6, 10, 11, 3, 9, 2, 13, 28, 15, 5, 22, 7 ] },
   
 ];
 
@@ -149,8 +150,8 @@ const externalResults: LeagueMatch[] = [
   { datum: '2025-10-11', thuisTeam: 'Leuven', uitTeam: 'Herent', thuisGoals: 8, uitGoals: 2, gespeeld: true },
   { datum: '2025-10-12', thuisTeam: 'Grasheide', uitTeam: 'Grobbendonk', thuisGoals: 8, uitGoals: 0, gespeeld: true },
 
-  { datum: '2025-10-18', thuisTeam: 'Zonhoven', uitTeam: 'Grasheide', thuisGoals: 0, uitGoals: 0, gespeeld: false },
-  { datum: '2025-10-19', thuisTeam: 'Herent', uitTeam: 'Laakdal', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+  { datum: '2025-10-18', thuisTeam: 'Zonhoven', uitTeam: 'Grasheide', thuisGoals: 0, uitGoals: 2, gespeeld: true },
+  { datum: '2025-10-19', thuisTeam: 'Herent', uitTeam: 'Laakdal', thuisGoals: 3, uitGoals: 2, gespeeld: true },
 
 
 { datum: '2025-10-25', thuisTeam: 'Grasheide', uitTeam: 'Laakdal', thuisGoals: 0, uitGoals: 0, gespeeld: false },
