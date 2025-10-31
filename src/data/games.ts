@@ -60,11 +60,6 @@ export const upcoming: Fixture[] = [
   // LET OP: Data afkomstig van RBFA kalender (dynamic page). Alleen eerstvolgende match kon automatisch geïdentificeerd.
   // Vul de rest manueel aan zodra volledige kalender beschikbaar is in tekstvorm.
     // Volledige heenronde (najaar) volgens RBFA kalender (screenshots 19 sep -> 7 dec 2025)
-    { datum: '2025-10-18', tegenstander: 'Grobbendonk', thuis: false, tijd: '14:30', 
-      locatie: 'Cmp Grobbendonk - Terr. 1',
-      adres: 'Vaartkom 2, 2280 Grobbendonk',
-      mapsUrl: 'https://www.google.com/maps/place/KFC+Grobbendonk/@51.1902146,4.7318345,982m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c155766e7379a5:0x1130543b4389c75a!8m2!3d51.1902146!4d4.7344094!16s%2Fg%2F11gmc9mr9w?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D'
- },
     { datum: '2025-10-25', tegenstander: 'Zonhoven', thuis: false, tijd: '13:00', 
       locatie: 'De Basvelden - Terr. 2',
       adres: 'Herestraat 124A, 3520 Zonhoven',
