@@ -62,7 +62,6 @@ export const upcoming: Fixture[] = [
   // LET OP: Data afkomstig van RBFA kalender (dynamic page). Alleen eerstvolgende match kon automatisch geïdentificeerd.
   // Vul de rest manueel aan zodra volledige kalender beschikbaar is in tekstvorm.
     // Volledige heenronde (najaar) volgens RBFA kalender (screenshots 19 sep -> 7 dec 2025)
-    { datum: '2025-11-02', tegenstander: 'Grasheide', thuis: true, tijd: '10:00' },
     { datum: '2025-11-09', tegenstander: 'Laakdal', thuis: true, tijd: '10:00' },
     { datum: '2025-11-15', tegenstander: 'Leuven', thuis: false, tijd: '17:00', 
       locatie: 'Boudewijnstadion',
@@ -147,11 +146,11 @@ const externalResults: LeagueMatch[] = [
   { datum: '2025-10-19', thuisTeam: 'Herent', uitTeam: 'Laakdal', thuisGoals: 3, uitGoals: 2, gespeeld: true },
 
 
-{ datum: '2025-10-25', thuisTeam: 'Grasheide', uitTeam: 'Laakdal', thuisGoals: 0, uitGoals: 0, gespeeld: false },
-{ datum: '2025-10-26', thuisTeam: 'Grobbendonk', uitTeam: 'Leuven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+{ datum: '2025-10-26', thuisTeam: 'Grasheide', uitTeam: 'Laakdal', thuisGoals: 1, uitGoals: 2, gespeeld: true },
+{ datum: '2025-10-25', thuisTeam: 'Grobbendonk', uitTeam: 'Leuven', thuisGoals: 0, uitGoals: 5, gespeeld: true },
 
-{ datum: '2025-11-01', thuisTeam: 'Leuven', uitTeam: 'Zonhoven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
-{ datum: '2025-11-02', thuisTeam: 'Herent', uitTeam: 'Grobbendonk', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+{ datum: '2025-11-01', thuisTeam: 'Leuven', uitTeam: 'Zonhoven', thuisGoals: 1, uitGoals: 2, gespeeld: true },
+{ datum: '2025-11-02', thuisTeam: 'Herent', uitTeam: 'Grobbendonk', thuisGoals: 2, uitGoals: 2, gespeeld: true },
 
 { datum: '2025-11-08', thuisTeam: 'Grasheide', uitTeam: 'Leuven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
 { datum: '2025-11-09', thuisTeam: 'Zonhoven', uitTeam: 'Herent', thuisGoals: 0, uitGoals: 0, gespeeld: false },
