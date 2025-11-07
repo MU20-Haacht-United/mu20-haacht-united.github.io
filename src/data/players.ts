@@ -61,8 +61,8 @@ export const players: Player[] = [
   { rugnummer:25,  naam: 'Van Noten Lore',            positie: [1], team: 'Px'},
   { rugnummer:26,  naam: 'Smits Gitte',               positie: [7,11], team: 'Px'},
   { rugnummer:27,  naam: 'Aerts Marie',               positie: [11,7], team: 'Px'},
-  { rugnummer:28,  naam: 'Vermoesen Lene',            positie: [10,9], team: 'MU16'},
-  { rugnummer:29,  naam: 'Katrijn Symons',            positie: [10,9], team: 'MU20'},
+  { rugnummer:28,  naam: 'Vermoesen Lene',            positie: [11,2,7,5], team: 'MU16'},
+  { rugnummer:29,  naam: 'Katrijn Symons',            positie: [3,4,6,8,10], team: 'Px'},
 ];
 
 // Dynamische statistieken op basis van gespeelde matches & events
