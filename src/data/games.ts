@@ -35,6 +35,8 @@ export const matches: Match[] = [
     { rugnummer: 6, type: 'goal' },
   ], players: [21, 6, 10, 16,11,9,2,12,13,15,19,5,1,17,18] },
   { datum: '2025-10-18', tegenstander: 'Grobbendonk', thuis: false, goalsVoor: 1, goalsTegen: 3, competitie: true, events: [{ rugnummer: 6, type: 'goal' }], players: [25, 6, 10, 11, 3, 9, 2, 13, 28, 15, 5, 22, 7 ] },
+  { datum: '2025-10-25', tegenstander: 'Zonhoven', thuis: false, goalsVoor: 2, goalsTegen: 3, competitie: true, events: [{ rugnummer: 26, type: 'goal' }, { rugnummer: 26, type: 'goal' }], players: [25, 6, 10, 16, 11, 26, 2, 24, 13, 7, 15, 5, 18] },
+  { datum: '2025-11-02', tegenstander: 'Grasheide', thuis: true, goalsVoor: 1, goalsTegen: 3, competitie: true, events: [{ rugnummer: 26, type: 'goal' }], players: [25, 14, 16, 11, 9, 2, 12, 13, 7, 24, 5, 26, 17, 29] },
   
 ];
 
@@ -60,10 +62,6 @@ export const upcoming: Fixture[] = [
   // LET OP: Data afkomstig van RBFA kalender (dynamic page). Alleen eerstvolgende match kon automatisch geïdentificeerd.
   // Vul de rest manueel aan zodra volledige kalender beschikbaar is in tekstvorm.
     // Volledige heenronde (najaar) volgens RBFA kalender (screenshots 19 sep -> 7 dec 2025)
-    { datum: '2025-10-25', tegenstander: 'Zonhoven', thuis: false, tijd: '13:00', 
-      locatie: 'De Basvelden - Terr. 2',
-      adres: 'Herestraat 124A, 3520 Zonhoven',
-      mapsUrl: 'https://www.google.com/maps/place/Zonhoven+United+-+Jeugdacademie/@50.9867578,5.3803551,987m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c126db6e22e5db:0x1e40501f4f8b20c5!8m2!3d50.9867579!4d5.385226!16s%2Fg%2F1v93_6cg?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D' },
     { datum: '2025-11-02', tegenstander: 'Grasheide', thuis: true, tijd: '10:00' },
     { datum: '2025-11-09', tegenstander: 'Laakdal', thuis: true, tijd: '10:00' },
     { datum: '2025-11-15', tegenstander: 'Leuven', thuis: false, tijd: '17:00', 
