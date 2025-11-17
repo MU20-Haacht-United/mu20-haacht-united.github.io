@@ -37,6 +37,8 @@ export const matches: Match[] = [
   { datum: '2025-10-18', tegenstander: 'Grobbendonk', thuis: false, goalsVoor: 1, goalsTegen: 3, competitie: true, events: [{ rugnummer: 6, type: 'goal' }], players: [25, 6, 10, 11, 3, 9, 2, 13, 28, 15, 5, 22, 7 ] },
   { datum: '2025-10-25', tegenstander: 'Zonhoven', thuis: false, goalsVoor: 2, goalsTegen: 3, competitie: true, events: [{ rugnummer: 26, type: 'goal' }, { rugnummer: 26, type: 'goal' }], players: [25, 6, 10, 16, 11, 26, 2, 24, 13, 7, 15, 5, 18] },
   { datum: '2025-11-02', tegenstander: 'Grasheide', thuis: true, goalsVoor: 1, goalsTegen: 3, competitie: true, events: [{ rugnummer: 26, type: 'goal' }], players: [25, 14, 16, 11, 9, 2, 12, 13, 7, 24, 5, 26, 17, 29] },
+  { datum: '2025-11-09', tegenstander: 'Laakdal', thuis: true, goalsVoor: 0, goalsTegen: 2, competitie: true, events: [], players: [23, 6, 10, 16, 11, 9, 2, 13, 7, 24, 19, 14, 22, 29 ] },
+  { datum: '2025-11-15', tegenstander: 'Leuven', thuis: false, goalsVoor: 0, goalsTegen: 0, competitie: true, events: [], players: [23, 6, 10, 16, 11, 3, 9, 2, 13, 7, 15, 5, 14, 22, 29 ] },
   
 ];
 
@@ -152,11 +154,11 @@ const externalResults: LeagueMatch[] = [
 { datum: '2025-11-01', thuisTeam: 'Leuven', uitTeam: 'Zonhoven', thuisGoals: 1, uitGoals: 2, gespeeld: true },
 { datum: '2025-11-02', thuisTeam: 'Herent', uitTeam: 'Grobbendonk', thuisGoals: 2, uitGoals: 2, gespeeld: true },
 
-{ datum: '2025-11-08', thuisTeam: 'Grasheide', uitTeam: 'Leuven', thuisGoals: 0, uitGoals: 0, gespeeld: false },
-{ datum: '2025-11-09', thuisTeam: 'Zonhoven', uitTeam: 'Herent', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+{ datum: '2025-11-08', thuisTeam: 'Grasheide', uitTeam: 'Leuven', thuisGoals: 0, uitGoals: 0, gespeeld: true },
+{ datum: '2025-11-09', thuisTeam: 'Zonhoven', uitTeam: 'Herent', thuisGoals: 1, uitGoals: 2, gespeeld: true },
 
-{ datum: '2025-11-14', thuisTeam: 'Laakdal', uitTeam: 'Grobbendonk', thuisGoals: 0, uitGoals: 0, gespeeld: false },
-{ datum: '2025-11-16', thuisTeam: 'Herent', uitTeam: 'Grasheide', thuisGoals: 0, uitGoals: 0, gespeeld: false },
+{ datum: '2025-11-14', thuisTeam: 'Laakdal', uitTeam: 'Grobbendonk', thuisGoals: 13, uitGoals: 0, gespeeld: true },
+{ datum: '2025-11-16', thuisTeam: 'Herent', uitTeam: 'Grasheide', thuisGoals: 1, uitGoals: 2, gespeeld: true },
 
 { datum: '2025-11-22', thuisTeam: 'Zonhoven', uitTeam: 'Grobbendonk', thuisGoals: 0, uitGoals: 0, gespeeld: false },
 { datum: '2025-11-22', thuisTeam: 'Leuven', uitTeam: 'Laakdal', thuisGoals: 0, uitGoals: 0, gespeeld: false },

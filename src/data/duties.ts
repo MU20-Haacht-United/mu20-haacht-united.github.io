@@ -57,7 +57,7 @@ export const dutyAssignments: DutyAssignment[] = [
   { datum: '2025-10-25', tegenstander: 'Zonhoven', thuis: false, bar: [], fruit: 10, was: 10, gespeeld: true },
   { datum: '2025-11-02', tegenstander: 'Grasheide', thuis: true, bar: [3,5], fruit: 11, was: 11, gespeeld: true },
   { datum: '2025-11-09', tegenstander: 'Laakdal', thuis: true, bar: [15,6], fruit: 15, was: 15, gespeeld: true },
-  { datum: '2025-11-15', tegenstander: 'Leuven', thuis: false, bar: [], fruit: 4, was: 4, gespeeld: false },
+  { datum: '2025-11-15', tegenstander: 'Leuven', thuis: false, bar: [], fruit: 14, was: 14, gespeeld: true },
   { datum: '2025-11-23', tegenstander: 'Herent', thuis: true, bar: [7,8], fruit: 3, was: 3, gespeeld: false },
   // { datum: '2025-11-30', tegenstander: 'Herentals', thuis: false, bar: [], gespeeld: false, nvt: true},
   { datum: '2025-12-07', tegenstander: 'Grobbendonk', thuis: true, bar: [10,11], fruit: 14, was: 14, gespeeld: false },
