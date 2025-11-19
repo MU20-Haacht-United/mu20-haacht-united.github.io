@@ -64,12 +64,7 @@ export const upcoming: Fixture[] = [
   // LET OP: Data afkomstig van RBFA kalender (dynamic page). Alleen eerstvolgende match kon automatisch geïdentificeerd.
   // Vul de rest manueel aan zodra volledige kalender beschikbaar is in tekstvorm.
     // Volledige heenronde (najaar) volgens RBFA kalender (screenshots 19 sep -> 7 dec 2025)
-    { datum: '2025-11-09', tegenstander: 'Laakdal', thuis: true, tijd: '10:00' },
-    { datum: '2025-11-15', tegenstander: 'Leuven', thuis: false, tijd: '17:00', 
-      locatie: 'Boudewijnstadion',
-      adres: 'Stadionlaan 8, 3010 Kessel-Lo',
-      mapsUrl: 'https://www.google.com/maps/place/Boudewijnstadion/@50.8835806,4.7283799,1978m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47c167237dc07261:0x65342f5c9b813b89!8m2!3d50.8835807!4d4.7332508!16s%2Fg%2F11j4swclzy?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D' },
-    { datum: '2025-11-23', tegenstander: 'Herent', thuis: true, tijd: '10:00' },
+    { datum: '2025-11-22', tegenstander: 'Herent', thuis: true, tijd: '20:00' },
     // { datum: '2025-11-30', tegenstander: 'Herentals', thuis: false, tijd: '10:00', 
     //   locatie: '',
     //   adres: '',
